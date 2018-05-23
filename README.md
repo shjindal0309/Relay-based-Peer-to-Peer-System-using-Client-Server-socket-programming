@@ -8,10 +8,10 @@ gcc -o client client.c
 gcc -o node node.c  
 
 2) run  
-./server <serverport>  
-./node <serveraddress> <serverport>  
-./node <serveraddress> <serverport>  
-./node <serveraddress> <serverport>  
-./client <serveraddress> <serverport>  
+./server serverport  
+./node serveraddress serverport  
+./node serveraddress serverport  
+./node serveraddress serverport  
+./client serveraddress serverport  
   
 server address is localhost here  
